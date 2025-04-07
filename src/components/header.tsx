@@ -5,7 +5,7 @@ import ThemeToggle from "./theme-toggle";
 
 const Header = () => {
 
-    const { theme, setTheme } = useTheme();
+    const { theme } = useTheme();
     const isDark = theme === 'dark'
     return (
         <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur py-2 supports-[backdrop-filter]:bg-background/60">

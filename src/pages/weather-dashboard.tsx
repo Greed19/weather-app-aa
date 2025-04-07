@@ -1,5 +1,4 @@
 import CurrentWeather from "@/components/current-weather"
-import ErrorModal from "@/components/error-modal"
 import { FavoriteCities } from "@/components/favorite-cities"
 import HourlyTemperature from "@/components/hourly-temperature"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
